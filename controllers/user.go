@@ -3,8 +3,9 @@ package controllers
 import (
 	"encoding/json"
 	"fmt"
-	"mongo-golang/models"
 	"net/http"
+
+	"github.com/HassanSalem14/mongo-golang/models"
 
 	"github.com/julienschmidt/httprouter"
 	"gopkg.in/mgo.v2"
@@ -78,3 +79,4 @@ func (uc UserController) DeleteUser(w http.ResponseWriter, r *http.Request, p ht
 	w.WriteHeader(http.StatusOK)
 	fmt.Fprint(w, "Deleted user", oid, "\n")
 }
+
