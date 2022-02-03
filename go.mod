@@ -1,4 +1,4 @@
-module mongo-golang
+module github.com/HassanSalem14/mongo-golang
 
 go 1.17
 
