@@ -1,8 +1,9 @@
 package main
 
 import (
-	"mongo-golang/controllers"
 	"net/http"
+
+	"github.com/HassanSalem14/mongo-golang/controllers"
 
 	"github.com/julienschmidt/httprouter"
 	"gopkg.in/mgo.v2"
