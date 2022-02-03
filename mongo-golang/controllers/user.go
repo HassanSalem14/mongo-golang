@@ -3,8 +3,9 @@ package controllers
 import (
 	"encoding/json"
 	"fmt"
-	"mongo-golang/models"
 	"net/http"
+
+	"github.com/HassanSalem14/mongo-golang/models"
 
 	"github.com/julienschmidt/httprouter"
 	"gopkg.in/mgo.v2"
